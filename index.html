@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>MY PORFOLIO WEBSITE</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div id="header"> 
+            <div class="container">  <nav>
+ // <img src="images/first.jpg" class="logo">
+   <ul>
+     <li><a href="#">Home</a></li>       
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">portfolio</a></li>             
+    <li><a href="#">contact</a></li>
+      </ul>
+ </nav>
+    <div class="header-text">
+        <p> UI/UX Designer</p>
+          <h1> Hi, I'm <span> Emmanuel</span> <br>Garvey  from Ghana</h1>
+
+          </div> 
+    </div>
+    </div>
+   <!s ----------ABOUT------------->
+    <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/third.jpg">
+        </div>
+        <div class="about-col-2  "></div>
+        <hi class="sub-title"> ABOUT MY WORK</hi>
+        <p>It’s true that a UI (user interface) or UX (user experience) designers’ main aim is 
+          to enhance users’ satisfaction, by creating products and interfaces that are intuitive, simple and
+           efficient. And many people have a part to play in this, including developers, content writers and more.
+            But what exactly is each designer’s role within this overall aim? In general terms, 
+          UI is about the visual design of the product interface. Depending on the nature of the
+           product, this normally includes the layout, icons, buttons, information 
+           architecture, colors, typography, animations and illustrations. And as the name suggests, UX is 
+           about the user, or rather, human experience. It’s about analyzing people’s intents when they use
+            the product – what they should feel, what they need to understand and what action they should eventually 
+            take. In most cases, this part is done first, followed by the visual design.
+            To summarize with an effective metaphor, you can think of it as a house: UX is 
+             about providing the skeletal structure, deciding where each room should be placed, planning 
+             the electricity system and other structure-related aspects. The UI is more about the details,
+              such as the doorknobs, curtains, colors and more. In the end, all these elements come together
+               to make up a whole experience and atmosphere.</p>
+      <div class="tab-titles"></div>
+      <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+      <p class="tab-links" onclick="opentab('experience')">experience</p>
+      <p class="tab-links">education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li> <span>UI/UX</span><br>Designing Web/App interfaces</li>
+                  <li> <span>WEB DEVELOPMENT </span><br> Web App development</li>
+                  <li> <span>APP DEVELOPMENT </span><br>App development</li>
+                </ul>
+              </div>
+              <div class ="tab-contents " id="experience ">
+                <ul>
+                  <li> <span>UI/UX</span><br>UI/UX design trianing college</li>
+                  <li> <span>WEB DEVELOPMENT </span><br> Web Application trianing center</li>
+                  <li> <span>APP DEVELOPMENT </span><br>App development institution</li>
+                </ul>
+              </div>
+    </div>
+    </div>
+    <! -- -------------service-----------  -->
+    <div id="services">
+      <div class="container">
+        <hi class="sub-title"> MY SERVICES AT WORK</hi>
+        <div class="service-list">
+          <div>
+            <h2> Web Design </h2>
+            <p> the design of websites that are displayed on the internet. It usually refers to the user 
+              experience aspects of website development.</p>
+              <a href="#" >learn more</a>
+          </div>
+
+        </div>
+        <h2> UI/UX Design </h2>
+        <p> the design of websites that are displayed on the internet. It usually refers to the user 
+          experience aspects of website development.</p>
+          <a href="#" >learn more</a>
+         
+
+      </div>
+
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+          for(tablinks of tablinks){
+            tablink.classlist.remove("active-link");
+
+          }
+          for(tablinks of tabcontents){
+            tablink.classlist.remove(active-link);
+
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+    </script>
+</body>
+</html>
